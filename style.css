@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'SourceSansPro-LightItalic';
+    src: url('SourceSansPro-LightItalic.ttf');
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: "Apple Braille", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Apple Braille", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.drapeau {
+    position: absolute;
+    float: right;
+    right: 5%;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+
+.moove {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.moove:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
